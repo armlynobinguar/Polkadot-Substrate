@@ -135,3 +135,6 @@ pallet-collator-selection = { version = "13.0.0", default-features = false }
 parachain-info = { version = "0.11.0", package = "staging-parachain-info", default-features = false }
 parachains-common = { version = "11.0.0", default-features = false }
 
+[features]
+default = []
+parachain = []
